@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 //@RequestMapping("")
 public class SpringMVCController {
 
-
         @RequestMapping("/enter")
         public String enterInfo() {
             return "enterInfo";

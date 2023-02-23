@@ -5,7 +5,6 @@
          id="WebApp_ID" version="3.1">
 
   <display-name>hmw28</display-name>
-
   <absolute-ordering />
 
   <!-- Внутри тега servlet прописываем имя и класс DispatcherServlet -->
