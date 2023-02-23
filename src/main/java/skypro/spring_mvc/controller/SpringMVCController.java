@@ -14,8 +14,8 @@ public class SpringMVCController {
         }
 
         @RequestMapping("/show")
-        public String showInfo(@RequestParam("state") String state,
-                               @RequestParam("capital") String capital,
+        public String showInfo(@RequestParam("stateParam") String state,
+                               @RequestParam("capitalParam") String capital,
                                Model model) {
 
             model.addAttribute("stateAttribute", "Страна — " + state);

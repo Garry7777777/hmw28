@@ -12,9 +12,9 @@
 <form action="/show" method="get">
     <%--  В поле type указываем, какой тип данных будет принимать отображаемая строка.
           В поле name мы указываем название переменной, которая будет хранить введенные данные --%>
-    <input type="text" name="state" placeholder="введите страну">
+    <input type="text" name="stateParam" placeholder="введите страну">
     <br><br>
-    <input type="text" name="capital" placeholder="введите её столицу">
+    <input type="text" name="capitalParam" placeholder="введите её столицу">
     <br><br>
     <%--  Создаем саму кнопку  --%>
     <input type="submit">
